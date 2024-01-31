@@ -1,0 +1,11 @@
+.parent li{ 
+  list-style: none;
+  display:flex;
+ 
+  background-color:blue;
+
+  color: orange;
+
+}
+
+.parent
