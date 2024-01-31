@@ -27,3 +27,99 @@ p{
 
     border : 1px solid red;
 }
+
+/* .onepara
+{
+    color: red; 
+    background-color: aqua;
+    /* font-size: 30px; */
+    /* font-weight: bold; */
+    /* font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+
+    /* text-align: center; */
+
+    /* letter-spacing: 15px; */
+
+    /* word-spacing: 50px; */
+/* } */
+
+
+/* #three{
+    color: blue; 
+} */
+
+
+
+
+/* .mypara{
+    color: blue;
+    border : 1px solid black;
+    width: 70%;
+    margin : 0 auto;
+    text-align: center;
+    padding: 40px; */
+    /* padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px; */
+/* } */
+
+
+
+/* ul{
+
+    display: flex;
+    /* justify-content: left;
+    justify-content: right;
+    justify-content: center; */
+    /* justify-content: space-between; */
+    /* justify-content: space-evenly;
+    margin: 0;
+    padding: 0;
+} */ 
+
+
+/* ul li{
+   border : 1px solid blue;
+   list-style-type: none;
+   flex-grow : 1;
+   text-align: center;
+   /* text-decoration: underline; */
+   /* transition :  0.5s;
+   color: yellow;
+} */ 
+
+/* ul li:hover{
+
+    text-decoration: underline;
+    color: blue;
+    background-color: red;
+} */ 
+
+
+/* .parent{
+    border: 1px solid black;
+    height : 500px;
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.child{
+    border: 1px solid blue;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+
+    background-color: red;
+}
+
+
+.child1{
+    align-self : start;
+}
+
+.child4{
+    align-self: end;
+} 
+
