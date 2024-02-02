@@ -6,7 +6,6 @@
 }
 
 .main{
-
     width: 100%;
     position: absolute;
     top: 50%;
@@ -14,7 +13,11 @@
     transform: translate(-50%, -50%);
 }
 
-
+h1{
+    font-size : 100px;
+    margin-left: 200px;
+    color: white;
+}
 
 .line{
     background-color:orange;
@@ -24,20 +27,13 @@
 }
 
 
-h1{
-
-    font-size : 100px;
-    margin-left: 200px;
-    color: white;
+.finalfooter{
+    display: flex;
+    justify-content: space-evenly;
 }
 
-.main{
-
-    width: 100%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.one, .two, .three, .four{
+    padding: 50px;
 }
 
 .child2{
@@ -102,4 +98,36 @@ h1{
     height: 300px;
     width: 25%;
     padding: 30px;
+}
+
+.imgparent{
+    display: flex;
+    background-color: rgb(46, 40, 40);
+    color: white;
+}
+
+.leftimg{
+
+    width: 50%;
+    padding: 100px;
+    text-align: center;
+}
+
+.rightimg{
+    width: 50%;
+    padding: 100px;
+    text-align: center;
+
+}
+
+.myhr{
+    height: 10px;
+    background-color: orange;
+    width: 20%;
+    margin-top: 50px;
+    border: 0;
+}
+
+.myimg{
+    border-radius: 50%;
 }
