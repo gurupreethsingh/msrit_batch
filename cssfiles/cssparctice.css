@@ -1,6 +1,6 @@
 
 
-/* .parent{
+ .parent{
     height: 400px;
     display: flex;
     justify-content: center;
@@ -10,7 +10,7 @@
 
 p{
   display: inline-block;
-} */
+}
 
 
 .parent{
@@ -28,76 +28,65 @@ p{
     border : 1px solid red;
 }
 
-/* .onepara
+.onepara
 {
     color: red; 
     background-color: aqua;
-    /* font-size: 30px; */
-    /* font-weight: bold; */
-    /* font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+     font-size: 30px; 
+     font-weight: bold; 
+     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+    text-align: center; 
+     letter-spacing: 15px; 
+     word-spacing: 50px; 
+}
 
-    /* text-align: center; */
-
-    /* letter-spacing: 15px; */
-
-    /* word-spacing: 50px; */
-/* } */
-
-
-/* #three{
+ #three{
     color: blue; 
-} */
+} 
 
-
-
-
-/* .mypara{
+ .mypara{
     color: blue;
     border : 1px solid black;
     width: 70%;
     margin : 0 auto;
     text-align: center;
-    padding: 40px; */
-    /* padding-top: 40px;
+    padding: 40px; 
+    padding-top: 40px;
     padding-left: 40px;
     padding-right: 40px;
-    padding-bottom: 40px; */
-/* } */
+    padding-bottom: 40px; 
+ } 
 
-
-
-/* ul{
-
+ul{
     display: flex;
-    /* justify-content: left;
+    justify-content: left;
     justify-content: right;
-    justify-content: center; */
-    /* justify-content: space-between; */
-    /* justify-content: space-evenly;
+    justify-content: center;
+     justify-content: space-between; 
+     justify-content: space-evenly;
     margin: 0;
     padding: 0;
-} */ 
+} 
 
-
-/* ul li{
+ul li{
    border : 1px solid blue;
    list-style-type: none;
    flex-grow : 1;
    text-align: center;
-   /* text-decoration: underline; */
-   /* transition :  0.5s;
+    text-decoration: underline; 
+   transition :  0.5s;
    color: yellow;
-} */ 
+} 
 
-/* ul li:hover{
+ul li:hover{
 
     text-decoration: underline;
     color: blue;
     background-color: red;
-} */ 
+} 
 
 
-/* .parent{
+ .parent{
     border: 1px solid black;
     height : 500px;
     display: flex;
@@ -110,10 +99,8 @@ p{
     width: 100px;
     height: 100px;
     text-align: center;
-
     background-color: red;
 }
-
 
 .child1{
     align-self : start;
@@ -122,4 +109,3 @@ p{
 .child4{
     align-self: end;
 } 
-
