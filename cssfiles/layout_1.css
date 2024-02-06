@@ -1,36 +1,188 @@
 .child1{
     height:600px;
-    position:relative;
+    position: relative;
     background-image: url("/images/15.jpg");
     background-size: 100%;
+
+}
+ 
+h1{
+    font-size: 100px;
+    margin-left: 100px; 
+    color: white;
 }
 
 .line{
     background-color: orange;
     width:10%;
-    height:10px;
+    height: 10px;
     margin:0 auto;
-
-}
-
-h1{
-    font-size: 100px;
-    margin-left: 200px;
-    color:white;
-    
 }
 
 .main{
-   
     width: 100%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-     
+    position: relative;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
 }
 
 .child2{
-    border: 1px solid red;
+    background-color: rgb(33, 30, 30);
+    color: white;
+}
 
+.parentbox{
+    display:flex;
+    padding:100px ;
+}
+
+.box1,.box2,.box3,.box4{
+    height:300px;
+    width:25%;
+    padding: 30px;
+
+}
+
+.box1{
+    border:10px solid orangered;
+    display: flex;
+    align-items: center;
+}
+
+.box1 h2{
+    font-size:50px;
+}
+
+.child3{
+    background-color: rgb(33, 30, 30);
+    color: white;
+
+}
+
+.parntbox{
+    display:flex;
+    padding:100px;
+    background-color: white;
+    align-items: center;
+}
+
+.box12,.box22,.box32{
+    height:300px;
+    width:25%;
+
+
+}
+.box42{
+    height:280px;
+    width:25%;
+    border:10px solid orangered;
+}
+
+.box12{
+    background-image: url("/images/12.jpg");
+    background-position: 100%;
+}
+
+.box22{
+    background-image: url("/images/17\ \(1\).jpg");
+    background-position: 100%;
+}
+
+.box32{
+    background-image: url("/images/17\ \(3\).jpg");
+    background-position: 100%;
+}
+
+
+.box42 h2{
+    font-size:50px ;
+    height:100%;
+    width:100%;
+    color: black;
+    margin-top:0;
+    
+}
+
+
+.parnt1box{
+    display:flex;
+    padding:50px;
+    background-color: white;
+}
+
+.tx1{
+    width:70%;
+    align-items: centre;
+    font-size: 20px;
+    margin-left: 30px;
+    color:black;
+}
+
+.button{
+    background-color:black;
+    width:10%;
+    height: 30px;
+    margin:0 auto;
+    padding: 10px;
+    padding-bottom: 1px;
+    text-align: center;
+    align-items: center;
+    color:white;
+}
+
+.child4{
+    background-color: white;
+    height:1000px;
+}
+
+.parntbox{
+    height:400px;
+}
+
+.i1{
+     
+    padding: 30px;
+    background-image:url("/images/13.jpg") ;
+    background-position: 100%;
+    margin: 10px;
+    width:50%;
+}
+
+.i2{
+    
+    padding:30px;
+    background-image:url("/images/14.jpg") ;
+    background-position: 100%;
+    margin: 10px;
+    width:50%;
+}
+
+.prnt1box{
+    
+    display:flex;
+    height:400px;
+}
+
+.im1,.im2,.im3{
+    
+    padding:30px;
+    width:33.3%;
+}
+
+.im1{
+    border:10px solid orangered;
+    font-size: 20px;
+    text-align: center;
+    align-items:center;
+}
+
+.im2{
+    background-image:url("/images/16.jpg") ;
+    background-position: 100%;
+}
+
+.im3{
+    background-image:url("/images/17\ \(1\).jpg") ;
+    background-position: 100%;
 }
