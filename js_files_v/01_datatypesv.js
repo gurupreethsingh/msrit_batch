@@ -175,7 +175,7 @@ let username = prompt("enter your username");
       }
 
       default:
-//         {
-//             console.log("Access denied");
-//         }
-// }
+         {
+            console.log("Access denied");
+         }
+ }
